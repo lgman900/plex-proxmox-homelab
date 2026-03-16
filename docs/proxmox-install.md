@@ -47,14 +47,18 @@ If the machine has an active internet connection, some network settings may be a
 9. Access the Proxmox Web Interface
 After installation finishes, the system will reboot and display a console screen with the server IP address.
 Example:
+
 https://192.168.1.10:8006
-10. Open the Web Console
+
+11. Open the Web Console
 Open a browser on your laptop or desktop
 Enter the server IP address followed by :8006
 Example:
 https://192.168.1.10:8006
 Log in using:
+
 User: root
+
 Password: (the password you created during installation)
 
 You now have access to the Proxmox Web Management Interface.
