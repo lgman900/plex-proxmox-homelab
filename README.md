@@ -96,8 +96,6 @@ To test the server:
 ---
 
 ## Future Improvements
-
-- Migrate Plex to Linux container
 - Add automated media downloads
 - Implement NAS storage
 - Add monitoring (Grafana/Prometheus)
