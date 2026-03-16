@@ -3,38 +3,40 @@ Follow these steps to install Proxmox Virtual Environment (VE) on your machine.
 
 1. Download the Proxmox VE ISO
 Download the latest ISO from the official website:
+
 https://www.proxmox.com/en/downloads
 
-2. Install Balena Etcher
+3. Install Balena Etcher
 Download and install Balena Etcher, which will be used to create the bootable USB drive.
+
 https://etcher.balena.io/
 
-3. Insert a USB Flash Drive
+5. Insert a USB Flash Drive
 Insert a USB flash drive into your computer (8GB or larger recommended).
 
-4. Create the Bootable USB
+6. Create the Bootable USB
 Open Balena Etcher
 Click Flash from file
 Select the Proxmox VE ISO
 Click Select target and choose your USB drive
 Click Flash to create the bootable installer
 
-5. Insert USB into the Target Machine
+7. Insert USB into the Target Machine
 Insert the bootable USB drive into the machine where you want to install Proxmox.
 
-6. Connect Ethernet
+8. Connect Ethernet
 Connect an Ethernet cable:
 One end → Machine
 Other end → Router or network switch
 A wired connection is recommended for installation.
 
-7. Boot from the USB Drive
+9. Boot from the USB Drive
 Power on the machine
 Enter the Boot Manager / BIOS Boot Menu
 Select the External USB Drive
 The Proxmox installer should start.
 
-8. Complete the Installation
+10. Complete the Installation
 Follow the installer prompts to configure:
 Disk installation location
 Root password
